@@ -422,7 +422,7 @@ section.landing .secIcon {
   margin: 0;
 }
 
-section.landing .icon-1 {
+/* section.landing .icon-1 {
   rotate: 15deg;
   right: 15%;
   top: 0;
@@ -432,18 +432,18 @@ section.landing .icon-2 {
   rotate: -15deg;
   left: 15%;
   top: 270px;
-}
-section.landing:hover .icon-2,
+} */
+/* section.landing:hover .icon-2,
 section.landing:hover .icon-1 {
   box-shadow: 0px 4px 20px 0px #7770f333;
-}
+} */
 
-section.landing:hover .icon-2 {
+/* section.landing:hover .icon-2 {
   left: 20%;
 }
 section.landing:hover .icon-1 {
   right: 20%;
-}
+} */
 .animated-word {
   position: relative;
   font-size: 30px;
@@ -478,9 +478,11 @@ section.landing:hover .icon-1 {
 }
 .blur-light-1 {
   top: 50px;
+  left: 40px;
 }
 .blur-light-2 {
   top: -50px;
+  right: 40px;
 }
 
 section.landing p {
@@ -498,7 +500,8 @@ section.landing .buttons {
 
 section.landing button:first-child {
   border: none;
-  color: var(--btn-text);
+  /* color: var(--btn-text); */
+  color: white;
   background: var(--accent);
   border-radius: 30px;
   padding: 16px;

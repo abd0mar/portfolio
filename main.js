@@ -20,7 +20,7 @@ function type() {
   }
 
   if(!isDeleting && charIndex === currentWord.length){
-    typeSpeed = 800;
+    typeSpeed = 1500;
     isDeleting = true;
   }else if(isDeleting && charIndex === 0){
     wordIndex = (wordIndex + 1) % words.length;
