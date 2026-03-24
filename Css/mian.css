@@ -2,9 +2,6 @@
 /* Global Settings */
 /* ============================ */
 :root {
-  --accent: #7770f3;
-  --accent-50: #7770f350;
-  --accent-hover: #857ff5;
   --delay: 0.3s;
   --bg-primary: #f8fafc;
   --bg-se-primary: #f5f5f5;
@@ -399,6 +396,7 @@ section.landing .text h1:first-child {
 }
 
 section.landing .text h1:last-child {
+  background-color: var(--accent);
   position: relative;
   color: transparent;
   background: linear-gradient(
